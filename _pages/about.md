@@ -23,41 +23,76 @@ redirect_from:
 </div>
 
 
+
+
 Experience
 ======
 - **2020-2024**   Harbin Institute of Technology
 - **2024-2027**   Southeast University
 
 
+
+
 Publications
 ======
-
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* 定义展开内容的样式 */
+        .expand-content {
+            display: none; /* 默认隐藏 */
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+    </style>
+    <script>
+        // JavaScript函数，用于切换展开内容的显示与隐藏
+        function toggleExpand(){
+            var content = document.querySelector('.expand-content');
+            var toggleBtn = document.querySelector('.expand-toggle');
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+                toggleBtn.textContent = '收起';
+            } else {
+                content.style.display = 'none';
+                toggleBtn.textContent = '展开';
+            }
+        }
+    </script>
+</head>
 <div class="publication" style="display: flex; align-items: center; margin-bottom: 20px;">
     <div class="publication-image" style="flex: 0 0 auto; margin-right: 20px;">
         <img src="https://raw.githubusercontent.com/Zijing5/zijing5.github.io/master/images/home2.png" style="max-width: 180px; height: auto;">
     </div>
     <div class="publication-text" style="flex: 1 1 auto;">
         <h2 style="margin-top: 0;">Imaging my paper lying here</h2>
-        <p>This is my paper, yet it is not written in China.Actually it is from another nation ———— imagination.</p>
+        <p>This is my paper, yet it is not written in China.Actually it is from another nation ——— imagination.</p>
         <p>More details about my paper." <i>Journal 1</i>. 1(1).</p>
         <!-- <p><a href="http://academicpages.github.io/files/paper1.pdf">Download paper here</a></p> -->
         <p><a href="http://academicpages.github.io/files/paper1.pdf">
             <i class="fa-file-pdf"></i> Paper
             </a>
          <!-- 第一个额外的图标 -->
-            <a href="第一个额外图标的链接">
+            <a href="第一个额外图标的链接" style="margin-left: 10px;">
                 <i class="fa-globe"></i> Webpage
             </a>
             <!-- 第二个额外的图标 -->
-            <a href="第二个额外图标的链接">
+            <a href="第二个额外图标的链接" style="margin-left: 10px;">
                 <i class="fa-file-code"></i> Code
             </a>
-            <a href="第二个额外图标的链接">
-                <i class="fa-file-text"></i> BibTex
+            <a href="第二个额外图标的链接" style="margin-left: 10px;">
+                <i class="fa-file-book"></i> BibTex
             </a>
-            <a href="Abstract">
-                <i class="fa-ellipsis-v"></i> Abstract
-            </a>
+            <!-- 展开和收起内容的按钮 -->
+            <span class="fa-ellipsis-v" style="margin-left: 10px;" onclick="toggleExpand()">Abstract</span>
+            <!-- 展开的内容 -->
+            <div class="expand-content">
+                <p>Here is my abstract.</p>
+            </div>
         </p>
-    </div>7
+    </div>
 </div>
+</body>
+</html>
