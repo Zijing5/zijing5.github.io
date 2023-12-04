@@ -17,15 +17,16 @@ redirect_from:
     <br>
     ✨ I have lots of interest in AI.
   </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="https://raw.githubusercontent.com/Zijing5/zijing5.github.io/master/images/home1.png" alt="home1" width="200">
+  <div style="flex: 1; text-align: right;">
+    <img src="https://raw.githubusercontent.com/Zijing5/zijing5.github.io/master/images/home1.png" alt="home1" width="300">
   </div>
 </div>
+
 
 Experience
 ======
 - **2020-2024**  Harbin Institute of Technology
-- **2024-2027**  Southeast University1
+- **2024-2027**  Southeast University
 
 一级标题
 ======
