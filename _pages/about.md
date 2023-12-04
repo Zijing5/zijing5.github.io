@@ -42,7 +42,22 @@ Publications
         <p>More details about my paper." <i>Journal 1</i>. 1(1).</p>
         <!-- <p><a href="http://academicpages.github.io/files/paper1.pdf">Download paper here</a></p> -->
         <p><a href="http://academicpages.github.io/files/paper1.pdf">
-            <i class="fa fa-download"></i> Download paper here
-        </a></p>
+            <i class="fa-file-pdf"></i> Paper
+            </a>
+         <!-- 第一个额外的图标 -->
+            <a href="第一个额外图标的链接">
+                <i class="fa-globe"></i> Webpage
+            </a>
+            <!-- 第二个额外的图标 -->
+            <a href="第二个额外图标的链接">
+                <i class="fa-file-code"></i> Code
+            </a>
+            <a href="第二个额外图标的链接">
+                <i class="fa-file-text"></i> BibTex
+            </a>
+            <a href="Abstract">
+                <i class="fa-ellipsis-v"></i> Abstract
+            </a>
+        </p>
     </div>7
 </div>
