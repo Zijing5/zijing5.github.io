@@ -65,7 +65,7 @@ Publications
 </head>
 <body>
     <!-- 这里是你的内容 -->
-    <div class="publication" style="display: flex; align-items: center; margin-bottom: 20px;">
+    <div class="publication" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
         <div class="publication-image" style="flex: 0 0 auto; margin-right: 20px;">
             <img src="https://raw.githubusercontent.com/Zijing5/zijing5.github.io/master/images/home2.png" style="max-width: 180px; height: auto;">
         </div>
@@ -85,18 +85,24 @@ Publications
                 <a href="Code的链接" style="margin-left: 10px;">
                     <i class="fas fa-file-code"></i> Code
                 </a>
-                <!-- <a href="javascript:void(0);" onclick="toggleExpand()" style="margin-left: 10px;" class="expand-toggle" style="margin-left: 10px;">
+                <a href="javascript:void(0);" onclick="toggleAbstract()" style="margin-left: 10px;">
                     <i class="fas fa-book"></i> BibTex
                 </a>
                 <div class="expand-content">
-                    <p>BiTex</p>
-                </div> -->
-                <!-- 展开和收起内容的按钮 -->
+                    <p>BiTex
+                    Bitex
+                    Bitex</p>
+                </div>
                 <a href="javascript:void(0);" onclick="toggleAbstract()" style="margin-left: 10px;">
                     <i class="fas fa-ellipsis-v"></i> Abstract
                 </a>
                 <div class="expand-content">
-                    <p>Here is my abstract.Here is my abstract.Here is my abstract.Here is my abstract.Here is my abstract.Here is my abstract.</p>
+                    <p>Here is my abstract.
+                    Here is my abstract.
+                    Here is my abstract.
+                    Here is my abstract.
+                    Here is my abstract.
+                    Here is my abstract.</p>
                 </div>
             </p>
         </div>
