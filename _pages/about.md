@@ -31,7 +31,6 @@ Experience
 
 
 
-
 Publications
 ======
 <!-- <!DOCTYPE html> -->
@@ -74,34 +73,34 @@ Publications
             <p>This is my paper, yet it is not written in China. Actually it is from another nation ——— imagination.</p>
             <p>More details about my paper." <i>Journal 1</i>. 1(1).</p>
             <p>
+                <!-- 第一个图标 -->
                 <a href="http://academicpages.github.io/files/paper1.pdf">
                     <i class="fas fa-file-pdf"></i> Paper
                 </a>
-                <!-- 第一个额外的图标 -->
+                <!-- 第二个图标 -->
                 <a href="Webpage的链接" style="margin-left: 10px;">
                     <i class="fas fa-globe"></i> Webpage
                 </a>
-                <!-- 第二个额外的图标 -->
+                <!-- 第三个图标 -->
                 <a href="Code的链接" style="margin-left: 10px;">
                     <i class="fas fa-file-code"></i> Code
                 </a>
+                <!-- 第四个图标 -->
                 <a href="javascript:void(0);" onclick="toggleAbstract()" style="margin-left: 10px;">
                     <i class="fas fa-book"></i> BibTex
                 </a>
                 <div class="expand-content">
-                    <p>BiTex
-                    Bitex\\
-                    Bitex</p>
+                    <p>BiTexBitex\\Bitex</p>
                 </div>
+                <!-- 第五个图标 -->
                 <a href="javascript:void(0);" onclick="toggleAbstract()" style="margin-left: 10px;">
                     <i class="fas fa-ellipsis-v"></i> Abstract
                 </a>
                 <div class="expand-content">
-                    <p>Here is my abstract.
-                    Here is my abstract.
-                    Here is my abstract.
-                    Here is my abstract.
-                    Here is my abstract.
+                    <p>Here is my abstract.Here is my abstract.<br>
+                    Here is my abstract.<br>
+                    Here is my abstract.<br>
+                    Here is my abstract.<br>
                     Here is my abstract.</p>
                 </div>
             </p>
