@@ -52,7 +52,16 @@ Publications
             cursor: pointer;
         }
     </style>
-    <script src="toggleExpand.js"></script>
+    <script>
+        function toggleAbstract() {
+            var content = document.querySelector('.expand-content');
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+            } else {
+                content.style.display = 'none';
+            }
+        }
+    </script>
 </head>
 <body>
     <!-- 这里是你的内容 -->
@@ -64,7 +73,6 @@ Publications
             <h2 style="margin-top: 0;">Imaging my paper lying here</h2>
             <p>This is my paper, yet it is not written in China. Actually it is from another nation ——— imagination.</p>
             <p>More details about my paper." <i>Journal 1</i>. 1(1).</p>
-            <!-- <p><a href="http://academicpages.github.io/files/paper1.pdf">Download paper here</a></p> -->
             <p>
                 <a href="http://academicpages.github.io/files/paper1.pdf">
                     <i class="fas fa-file-pdf"></i> Paper
@@ -77,18 +85,16 @@ Publications
                 <a href="Code的链接" style="margin-left: 10px;">
                     <i class="fas fa-file-code"></i> Code
                 </a>
-                <a href="javascript:void(0);" onclick="toggleExpand()" style="margin-left: 10px;" class="expand-toggle" style="margin-left: 10px;">
+                <!-- <a href="javascript:void(0);" onclick="toggleExpand()" style="margin-left: 10px;" class="expand-toggle" style="margin-left: 10px;">
                     <i class="fas fa-book"></i> BibTex
                 </a>
-                <!-- 展开的内容 -->
                 <div class="expand-content">
                     <p>BiTex</p>
-                </div>
+                </div> -->
                 <!-- 展开和收起内容的按钮 -->
-                <a href="javascript:void(0);" onclick="toggleExpand()" style="margin-left: 10px;" class="expand-toggle">
+                <a href="javascript:void(0);" onclick="toggleAbstract()" style="margin-left: 10px;">
                     <i class="fas fa-ellipsis-v"></i> Abstract
                 </a>
-                <!-- 展开的内容 -->
                 <div class="expand-content">
                     <p>Here is my abstract.Here is my abstract.Here is my abstract.Here is my abstract.Here is my abstract.Here is my abstract.</p>
                 </div>
