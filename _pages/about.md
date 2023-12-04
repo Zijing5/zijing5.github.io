@@ -77,9 +77,13 @@ Publications
                 <a href="Code的链接" style="margin-left: 10px;">
                     <i class="fas fa-file-code"></i> Code
                 </a>
-                <a href="Bibtex的链接" style="margin-left: 10px;">
+                <a href="javascript:void(0);" onclick="toggleExpand()" style="margin-left: 10px;" class="expand-toggle" style="margin-left: 10px;">
                     <i class="fas fa-book"></i> BibTex
                 </a>
+                <!-- 展开的内容 -->
+                <div class="expand-content">
+                    <p>BiTex</p>
+                </div>
                 <!-- 展开和收起内容的按钮 -->
                 <a href="javascript:void(0);" onclick="toggleExpand()" style="margin-left: 10px;" class="expand-toggle">
                     <i class="fas fa-ellipsis-v"></i> Abstract
