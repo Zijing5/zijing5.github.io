@@ -35,6 +35,7 @@ Experience
 
 Publications
 ======
+
 <html>
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -42,7 +43,7 @@ Publications
         /* 定义展开内容的样式 */
         .expand-content {
             display: none; /* 默认隐藏 */
-            padding: 10px;
+            padding: 8px;
             background-color: #f0f0f0;
         }
         /* 统一超链接样式 */
@@ -66,15 +67,13 @@ Publications
 <body>
     <!-- 这里是你的内容 -->
     <div class="publication" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-        <div class="publication-image" style="flex: 0 0 auto; margin-right: 20px;">
-            <div style="margin-bottom: 20px;">
+        <div class="publication-image" style="flex: 0 0 auto; margin-right: 20px; margin-top: 20px;">
                 <img src="https://raw.githubusercontent.com/Zijing5/zijing5.github.io/master/images/home2.png" style="max-width: 200px; height: auto;">
-            </div>
         </div>
         <div class="publication-text" style="flex: 1 1 auto;">
             <h2 style="margin-top: 0;">Imaging my paper lying here</h2>
             <p>This is my paper, yet it is not written in China. Actually it is from another nation ——— imagination.</p>
-            <p>xxx, xxx, xxx, xxx
+            <p>xxx, xxx, xxx, xxx</p>
             <p>
                 <!-- 第一个图标 -->
                 <a href="http://academicpages.github.io/files/paper1.pdf">
