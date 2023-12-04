@@ -48,7 +48,7 @@ Publications
         }
         /* 统一超链接样式 */
         a {
-            color: #000080;
+            color: #336699;
             text-decoration: underline;
             cursor: pointer;
         }
@@ -95,12 +95,12 @@ Publications
                     <i class="fas fa-book"></i> BibTex
                 </a>
                 <!-- 展开和收起内容的按钮 -->
-                <a href="javascript:void(0);" onclick="toggleExpand()" style="margin-left: 10px;" class="expand-toggle">
+                <span onclick="toggleExpand()" style="margin-left: 10px; cursor: pointer;" class="expand-toggle">
                     <i class="fas fa-ellipsis-v"></i> Abstract
-                </a>
+                </span>
                 <!-- 展开的内容 -->
                 <div class="expand-content">
-                    <p>Here is my abstract.</p>
+                    <p>Here is my abstract.Here is my abstract.Here is my abstract.Here is my abstract.Here is my abstract.Here is my abstract.</p>
                 </div>
             </p>
         </div>
