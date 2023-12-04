@@ -25,8 +25,8 @@ redirect_from:
 
 Experience
 ======
-- **2020-2024**  Harbin Institute of Technology
-- **2024-2027**  Southeast University
+- **2020-2024**   Harbin Institute of Technology
+- **2024-2027**   Southeast University
 
 一级标题
 ======
