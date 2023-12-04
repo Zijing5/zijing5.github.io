@@ -54,8 +54,8 @@ Publications
         }
     </style>
     <script>
-        function toggleAbstract() {
-            var content = document.querySelector('.expand-content');
+        function toggleAbstract(contentClass) {
+            var content = document.querySelector('.' + contentClass);
             if (content.style.display === 'none') {
                 content.style.display = 'block';
             } else {
@@ -87,10 +87,10 @@ Publications
                 <a href="Code的链接" style="margin-left: 10px;">
                     <i class="fas fa-file-code"></i> Code
                 </a>
-                <a href="javascript:void(0);" onclick="toggleAbstract()" style="margin-left: 10px; display: inline-block;" >
+                <a href="javascript:void(0);" onclick="toggleAbstract('firstContent')" style="margin-left: 10px; display: inline-block;" >
                     <i class="fas fa-ellipsis-v"></i> Abstract
                 </a>
-                <div class="expand-content">
+                <div class="expand-content firstContent">
                     <p>Here is my abstract.<br>
                     Here is my abstract.<br>Here is my abstract.</p>
                 </div>
@@ -117,8 +117,8 @@ Publications
         }
     </style>
     <script>
-        function toggleAbstract() {
-            var content = document.querySelector('.expand-content');
+        function toggleAbstract(contentClass) {
+            var content = document.querySelector('.' + contentClass);
             if (content.style.display === 'none') {
                 content.style.display = 'block';
             } else {
@@ -150,10 +150,10 @@ Publications
                 <a href="Code的链接" style="margin-left: 10px;">
                     <i class="fas fa-file-code"></i> Code
                 </a>
-                <a href="javascript:void(0);" onclick="toggleAbstract()" style="margin-left: 10px; display: inline-block;" >
+                <a href="javascript:void(0);" onclick="toggleAbstract('secondContent')" style="margin-left: 10px; display: inline-block;" >
                     <i class="fas fa-ellipsis-v"></i> Abstract
                 </a>
-                <div class="expand-content">
+                <div class="expand-content secondContent">
                     <p>To be, or not to be, that is the question:<br>
                     Whether 'tis nobler in the mind to suffer<br>
                     The slings and arrows of outrageous fortune,<br>
