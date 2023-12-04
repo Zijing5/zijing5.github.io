@@ -23,7 +23,7 @@ redirect_from:
 </div>
 
 
-
+<br>
 
 Experience
 ======
@@ -31,10 +31,10 @@ Experience
 - **2024-2027**   Southeast University
 
 
+<br>
 
 Publications
 ======
-<!-- <!DOCTYPE html> -->
 <html>
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -67,12 +67,14 @@ Publications
     <!-- 这里是你的内容 -->
     <div class="publication" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
         <div class="publication-image" style="flex: 0 0 auto; margin-right: 20px;">
-            <img src="https://raw.githubusercontent.com/Zijing5/zijing5.github.io/master/images/home2.png" style="max-width: 180px; height: auto;">
+            <div style="margin-bottom: 20px;">
+                <img src="https://raw.githubusercontent.com/Zijing5/zijing5.github.io/master/images/home2.png" style="max-width: 200px; height: auto;">
+            </div>
         </div>
         <div class="publication-text" style="flex: 1 1 auto;">
             <h2 style="margin-top: 0;">Imaging my paper lying here</h2>
             <p>This is my paper, yet it is not written in China. Actually it is from another nation ——— imagination.</p>
-            <p>More details about my paper." <i>Journal 1</i>. 1(1).</p>
+            <p>xxx, xxx, xxx, xxx
             <p>
                 <!-- 第一个图标 -->
                 <a href="http://academicpages.github.io/files/paper1.pdf">
@@ -86,23 +88,12 @@ Publications
                 <a href="Code的链接" style="margin-left: 10px;">
                     <i class="fas fa-file-code"></i> Code
                 </a>
-                <!-- 第四个图标 -->
-                <a href="javascript:void(0);" onclick="toggleAbstract()" style="margin-left: 10px;">
-                    <i class="fas fa-book"></i> BibTex
-                </a>
-                <div class="expand-content">
-                    <p>BiTexBitex\\Bitex</p>
-                </div>
-                <!-- 第五个图标 -->
-                <a href="javascript:void(0);" onclick="toggleAbstract()" style="margin-left: 10px;">
+                <a href="javascript:void(0);" onclick="toggleAbstract()" style="margin-left: 10px; display: inline-block;" >
                     <i class="fas fa-ellipsis-v"></i> Abstract
                 </a>
                 <div class="expand-content">
-                    <p>Here is my abstract.Here is my abstract.<br>
-                    Here is my abstract.<br>
-                    Here is my abstract.<br>
-                    Here is my abstract.<br>
-                    Here is my abstract.</p>
+                    <p>Here is my abstract.<br
+                    >Here is my abstract.<br>Here is my abstract.</p>
                 </div>
             </p>
         </div>
