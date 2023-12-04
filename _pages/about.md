@@ -9,8 +9,6 @@ redirect_from:
   - /about.html
 ---
 
-
-
 <div style="display: flex; flex-direction: row; align-items: center;">
   <div style="flex: 1;">
     👋 I am a final year graduate student at Harbin Institution of Technology, and I will continue my postgraduate study next year at Southeast University.
@@ -27,7 +25,7 @@ redirect_from:
 Experience
 ======
 - **2020-2024**  Harbin Institute of Technology
-- **2024-2027**  Southeast University
+- **2024-2027**  Southeast University1
 
 一级标题
 ======
