@@ -98,4 +98,42 @@ Publications
         </div>
     </div>
 </body>
+
+<body>
+    <!-- 这里是你的内容 -->
+    <div class="publication" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+        <div class="publication-image" style="flex: 0 0 auto; margin-right: 20px; margin-top: 20px;">
+                <img src="https://raw.githubusercontent.com/Zijing5/zijing5.github.io/master/images/home2.png" style="max-width: 200px; height: auto;">
+        </div>
+        <div class="publication-text" style="flex: 1 1 auto;">
+            <h2 style="margin-top: 0;">Imaging my paper lying here</h2>
+            <p>This is my paper, yet it is not written in China. Actually it is from another nation ——— imagination.</p>
+            <p>xxx, xxx, xxx, xxx</p>
+            <p>
+                <!-- 第一个图标 -->
+                <a href="http://academicpages.github.io/files/paper1.pdf">
+                    <i class="fas fa-file-pdf"></i> Paper
+                </a>
+                <!-- 第二个图标 -->
+                <a href="Webpage的链接" style="margin-left: 10px;">
+                    <i class="fas fa-globe"></i> Webpage
+                </a>
+                <!-- 第三个图标 -->
+                <a href="Code的链接" style="margin-left: 10px;">
+                    <i class="fas fa-file-code"></i> Code
+                </a>
+                <a href="javascript:void(0);" onclick="toggleAbstract()" style="margin-left: 10px; display: inline-block;" >
+                    <i class="fas fa-ellipsis-v"></i> Abstract
+                </a>
+                <div class="expand-content">
+                    <p>To be, or not to be, that is the question:<br>
+                        Whether 'tis nobler in the mind to suffer.<br>
+                        The slings and arrows of outrageous fortune,<br>
+                        Or to take arms against a sea of troubles<br>
+                        And by opposing end them.</p>
+                </div>
+            </p>
+        </div>
+    </div>
+</body>
 </html>
