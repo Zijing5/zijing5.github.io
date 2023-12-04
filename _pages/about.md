@@ -24,7 +24,6 @@ redirect_from:
 
 
 
-
 Experience
 ======
 - **2020-2024**   Harbin Institute of Technology
@@ -53,20 +52,7 @@ Publications
             cursor: pointer;
         }
     </style>
-    <script>
-        // JavaScript函数，用于切换展开内容的显示与隐藏
-        function toggleExpand() {
-            var content = document.querySelector('.expand-content');
-            var toggleBtn = document.querySelector('.expand-toggle');
-            if (content.style.display === 'none') {
-                content.style.display = 'block';
-                toggleBtn.textContent = '收起';
-            } else {
-                content.style.display = 'none';
-                toggleBtn.textContent = '展开';
-            }
-        }
-    </script>
+    <script src="toggleExpand.js"></script>
 </head>
 <body>
     <!-- 这里是你的内容 -->
@@ -95,9 +81,9 @@ Publications
                     <i class="fas fa-book"></i> BibTex
                 </a>
                 <!-- 展开和收起内容的按钮 -->
-                <span onclick="toggleExpand()" style="margin-left: 10px; cursor: pointer;" class="expand-toggle">
+                <a href="javascript:void(0);" onclick="toggleExpand()" style="margin-left: 10px;" class="expand-toggle">
                     <i class="fas fa-ellipsis-v"></i> Abstract
-                </span>
+                </a>
                 <!-- 展开的内容 -->
                 <div class="expand-content">
                     <p>Here is my abstract.Here is my abstract.Here is my abstract.Here is my abstract.Here is my abstract.Here is my abstract.</p>
