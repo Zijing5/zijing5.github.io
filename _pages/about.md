@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-![academicpages template](/images/home1.png){: .align-right width="300px"}
+![academicpages template](/images/home1.png)
 
 <!-- <div align=right>
 <img src="/images/home1.png">
