@@ -11,13 +11,14 @@ redirect_from:
 
 <div style="display: flex; flex-direction: row; align-items: center;">
   <div style="flex: 2;">
+    <br>
     👋 Greetings! I am a final-year graduate student at Harbin Institution of Technology, poised to embark on a new academic journey as a postgraduate student at Southeast University in the coming year.
     <br>
     ✍ Currently, I am diligently engaged in my Undergraduate Thesis, delving into the intricacies of 3D human motion generation within the realm of [specify your field or department]
     <br>
     ✨  My scholarly pursuits are deeply rooted in the expansive domain of Artificial Intelligence, where my profound interest thrives, and I continually seek opportunities for exploration and contribution.
   </div>
-  <div style="flex: 1; text-align: center;">
+  <div style="flex: 1; text-align: center; margin-left: 30px;">
     <img src="https://raw.githubusercontent.com/Zijing5/zijing5.github.io/master/images/home1.png" alt="home1" width="300">
   </div>
 </div>
