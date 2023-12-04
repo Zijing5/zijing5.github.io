@@ -9,14 +9,13 @@ redirect_from:
   - /about.html
 ---
 
-![academicpages template](/images/home1.png){width="200px"}
 
 
-👋 I am a final year graduate student at Harbin Intitution of Technology, and I will continue my postgraduate study next year at Southeast University. 
+| 👋 I am a final year graduate student at Harbin Institution of Technology, and I will continue my postgraduate study next year at Southeast University. |![home1](https://raw.githubusercontent.com/Zijing5/zijing5.github.io/master/images/home1.png) |
+|-------------------------------------------------------------|---|
+| ✨ I have lots of interest in AI.  
+  ✍ I am currently working on my Undergraduate Thesis in the field of 3D human motion generation.                                            |                                                              
 
-✨ I have lots of interest in AI.
-
-✍ I am currently working on my Undergraduate Thesis in the field of 3D human motion generation.
 
 
 Experience
