@@ -91,14 +91,42 @@ Publications
                     <i class="fas fa-ellipsis-v"></i> Abstract
                 </a>
                 <div class="expand-content">
-                    <p>Here is my abstract.<br
-                    >Here is my abstract.<br>Here is my abstract.</p>
+                    <p>Here is my abstract.<br>
+                    Here is my abstract.<br>Here is my abstract.</p>
                 </div>
             </p>
         </div>
     </div>
 </body>
-
+</html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* 定义展开内容的样式 */
+        .expand-content {
+            display: none; /* 默认隐藏 */
+            padding: 8px;
+            background-color: #f0f0f0;
+        }
+        /* 统一超链接样式 */
+        a {
+            color: #336699;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function toggleAbstract() {
+            var content = document.querySelector('.expand-content');
+            if (content.style.display === 'none') {
+                content.style.display = 'block';
+            } else {
+                content.style.display = 'none';
+            }
+        }
+    </script>
+</head>
 <body>
     <!-- 这里是你的内容 -->
     <div class="publication" style="display: flex; align-items: flex-start; margin-bottom: 20px;">
@@ -127,10 +155,11 @@ Publications
                 </a>
                 <div class="expand-content">
                     <p>To be, or not to be, that is the question:<br>
-                        Whether 'tis nobler in the mind to suffer.<br>
-                        The slings and arrows of outrageous fortune,<br>
-                        Or to take arms against a sea of troubles<br>
-                        And by opposing end them.</p>
+                    Whether 'tis nobler in the mind to suffer<br>
+                    The slings and arrows of outrageous fortune,<br>
+                    Or to take arms against a sea of troubles<br>
+                    And by opposing end them.<br>
+                    Here is my abstract.<br></p>
                 </div>
             </p>
         </div>
