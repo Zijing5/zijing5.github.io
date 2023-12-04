@@ -48,15 +48,16 @@ Publications
         }
         /* 统一超链接样式 */
         a {
-            color: blue;
+            color: #000080;
             text-decoration: underline;
+            cursor: pointer;
         }
     </style>
     <script>
         // JavaScript函数，用于切换展开内容的显示与隐藏
-        function toggleExpand(){
+        function toggleExpand() {
             var content = document.querySelector('.expand-content');
-            var toggleBtn = document.querySelector('.fa-ellipsis-v');
+            var toggleBtn = document.querySelector('.expand-toggle');
             if (content.style.display === 'none') {
                 content.style.display = 'block';
                 toggleBtn.textContent = '收起';
@@ -83,18 +84,18 @@ Publications
                     <i class="fas fa-file-pdf"></i> Paper
                 </a>
                 <!-- 第一个额外的图标 -->
-                <a href="第一个额外图标的链接" style="margin-left: 10px;">
+                <a href="Webpage的链接" style="margin-left: 10px;">
                     <i class="fas fa-globe"></i> Webpage
                 </a>
                 <!-- 第二个额外的图标 -->
-                <a href="第二个额外图标的链接" style="margin-left: 10px;">
+                <a href="Code的链接" style="margin-left: 10px;">
                     <i class="fas fa-file-code"></i> Code
                 </a>
-                <a href="第二个额外图标的链接" style="margin-left: 10px;">
+                <a href="Bibtex的链接" style="margin-left: 10px;">
                     <i class="fas fa-book"></i> BibTex
                 </a>
                 <!-- 展开和收起内容的按钮 -->
-                <a href="javascript:void(0);" onclick="toggleExpand()" style="margin-left: 10px;">
+                <a href="javascript:void(0);" onclick="toggleExpand()" style="margin-left: 10px;" class="expand-toggle">
                     <i class="fas fa-ellipsis-v"></i> Abstract
                 </a>
                 <!-- 展开的内容 -->
