@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-![academicpages template](/images/home1.png)
+![academicpages template](/images/home1.png){width="200px"}
 
 
 👋 I am a final year graduate student at Harbin Intitution of Technology, and I will continue my postgraduate study next year at Southeast University. 
