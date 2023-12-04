@@ -35,7 +35,7 @@ Experience
 
 Publications
 ======
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html>
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -46,12 +46,17 @@ Publications
             padding: 10px;
             background-color: #f0f0f0;
         }
+        /* 统一超链接样式 */
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
     </style>
     <script>
         // JavaScript函数，用于切换展开内容的显示与隐藏
         function toggleExpand(){
             var content = document.querySelector('.expand-content');
-            var toggleBtn = document.querySelector('.expand-toggle');
+            var toggleBtn = document.querySelector('.fa-ellipsis-v');
             if (content.style.display === 'none') {
                 content.style.display = 'block';
                 toggleBtn.textContent = '收起';
@@ -89,7 +94,9 @@ Publications
                     <i class="fas fa-book"></i> BibTex
                 </a>
                 <!-- 展开和收起内容的按钮 -->
-                <i class="fas fa-ellipsis-v" style="margin-left: 10px; cursor: pointer;" onclick="toggleExpand()"></i> Abstract
+                <a href="javascript:void(0);" onclick="toggleExpand()" style="margin-left: 10px;">
+                    <i class="fas fa-ellipsis-v"></i> Abstract
+                </a>
                 <!-- 展开的内容 -->
                 <div class="expand-content">
                     <p>Here is my abstract.</p>
