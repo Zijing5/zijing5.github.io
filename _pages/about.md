@@ -90,7 +90,7 @@ Publications
                 </a>
                 <div class="expand-content">
                     <p>BiTex
-                    Bitex
+                    Bitex\\
                     Bitex</p>
                 </div>
                 <a href="javascript:void(0);" onclick="toggleAbstract()" style="margin-left: 10px;">
